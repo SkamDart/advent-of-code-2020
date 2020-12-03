@@ -1,7 +1,7 @@
 with import <nixpkgs> {};
 
 let
-  crust = (rustChannels.stable.rust.override { extensions = [ "rust-src" ]; });
+  crust = (rustChannels.nightly.rust.override { extensions = [ "rust-src" ]; });
 in
 stdenv.mkDerivation {
   name = "advent-of-code";
