@@ -1,0 +1,12 @@
+[package]
+name = "advent-of-code"
+version = "0.1.0"
+authors = ["Cameron Dart <cdart@anduril.com>"]
+edition = "2018"
+
+[dependencies]
+
+
+[[bin]]
+name = "day1"
+path = "src/day1.rs"
